@@ -1,8 +1,8 @@
 import os
-from pathlib import Path
+from pathlib import Path 
 import logging
 
-#logging string
+#logging string (print the statements)
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 project_name = 'cnnClassifier'
